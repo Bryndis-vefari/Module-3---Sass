@@ -1,4 +1,4 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/* Imports */
 
 @import'_buttons.scss';
 @import'_variables.scss';
@@ -21,6 +21,8 @@ $font-weight-bold: 1000;
 $font-size-small: 14px;
 $font-size-medium: 50px;
 $font-size-large: 80px;
+
+/* Stying in order of apperance*/
 
 html, body {
     margin: 0;
@@ -132,14 +134,16 @@ body {
         transition: background .5s;
         margin: 10px 0 0;
         float: right; 
+    }       
+
 }       
 footer { 
    
     height: 80px; 
     padding-bottom: 50px;
-
+    background: $background-color-black;
     .container {
-        background: $background-color-black;
+    
     p { 
         color: $font-color-white;
         font-size: $font-size-small;  
@@ -149,7 +153,6 @@ footer {
     }
     }
 }
-  
   
   @media (min-width:850px) {
     .header h1 {
