@@ -1,11 +1,12 @@
 /* Button Colors */
 $button-color-black: #0000;
+$button-color-white: #ffff;
 
 /* Button Hover Colors */
 
 $button-hover-color-blue: #117bff;
 
-header {
+.header {
     .container {
         .btn:hover { 
             background: $button-hover-color-blue;
@@ -24,4 +25,14 @@ header {
           } 
     }
 
+}
+
+.jumbotron {
+    .container {
+        .btn:hover { 
+            background: $button-hover-color-blue;
+            cursor: pointer; 
+            transition: background .5s;
+        }
+    }    
 }
