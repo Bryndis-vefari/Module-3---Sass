@@ -125,8 +125,8 @@ body {
         text-align: right; 
     }
     .btn {
-        color: $font-color-black;
-        background: $button-color-white;
+        color: $font-color-white;
+        background: $button-color-black;
         padding: 10px 40px;
         text-decoration: none; 
         transition: background .5s;
@@ -134,9 +134,12 @@ body {
         float: right; 
 }       
 footer { 
+   
     height: 80px; 
     padding-bottom: 50px;
 
+    .container {
+        background: $background-color-black;
     p { 
         color: $font-color-white;
         font-size: $font-size-small;  
@@ -144,10 +147,9 @@ footer {
         line-height: 80px;
         margin: 0;  
     }
+    }
 }
-/* Begining of the CSS that I am changing into SCSS */
   
- 
   
   @media (min-width:850px) {
     .header h1 {
